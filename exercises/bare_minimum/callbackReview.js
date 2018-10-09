@@ -27,7 +27,7 @@ var getStatusCode = (url, callback) => {
     if (err) {
       statusCode = 404;
       callback(err);
-  } else {
+    } else {
       statusCode = 200;
       callback(null, statusCode);
     } 
